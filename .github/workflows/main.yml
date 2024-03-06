@@ -49,4 +49,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/birtviewer:${{ env.BRANCH }}, ${{ secrets.DOCKERHUB_USERNAME }}/birtviewer:${{ env.RELEASE }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/birtviewer:${{ env.BRANCH }}, ${{ secrets.DOCKERHUB_USERNAME }}/birtviewer:${{ env.RELEASE }}, ${{ secrets.DOCKERHUB_USERNAME }}/birtviewer
