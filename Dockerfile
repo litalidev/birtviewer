@@ -4,7 +4,7 @@ FROM tomcat:9-jdk17
 
 
 #Update
-RUN apt-get update && apt-get install wget unzip zip -y && apt-get clean
+RUN apt-get update && apt-get install wget unzip zip tzdata -y && apt-get clean
 #RUN apt-get update && apt-get -y upgrade && apt-get -y install wget unzip
 
 

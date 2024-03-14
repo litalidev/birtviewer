@@ -11,7 +11,13 @@ To build either run
 
 
 To test
-  1.  docker run -d --restart=always -p 8080:8080 --name birtviewer litalidev/birtviewer
+  1.  docker run -d --restart=always -p 8080:8080 --name birtviewer -e 'TZ=America/Los_Angeles' litalidev/birtviewer
   2.  browse http://hostip:8080/birt
 
+# Info (may not be accurate)
+
+| birt | 4.14.0-202312020807|
+| tomcat | 9.0.86 |
+| OpenJDK | 21.0.2+13|
+| Ubuntu | 22.04.3|
 

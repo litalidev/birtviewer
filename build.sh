@@ -1,1 +1,1 @@
-docker build --tag=litalidev/birtviewer:4.14.0 .
+docker build --tag=litalidev/birtviewer:4.14.0-01 .
