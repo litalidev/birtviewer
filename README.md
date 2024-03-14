@@ -11,7 +11,7 @@ To build either run
 
 
 To test
-  1.  docker run -d --restart=always -p 8080:8080 --name birtviewer -e 'TZ=America/Los_Angeles' litalidev/birtviewer
+  1.  docker run -d --restart=always -p 8080:8080 --name birtviewer -e TZ='America/Los_Angeles' litalidev/birtviewer
   2.  browse http://hostip:8080/birt
 
 # Info (may not be accurate)
