@@ -16,8 +16,10 @@ To test
 
 # Info (may not be accurate)
 
+| Package | Version |
+|--------|--------|
 | birt | 4.14.0-202312020807|
 | tomcat | 9.0.86 |
-| OpenJDK | 21.0.2+13|
+| OpenJDK | jdk-17.0.10+7
 | Ubuntu | 22.04.3|
 
